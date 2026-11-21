@@ -1,0 +1,21 @@
+{
+  "name": "day2project",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "p1": "bun run src/volumeCalculator.ts",
+    "p2": "bun run src/trueShooting.ts"
+
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.8.0"
+  }
+}
